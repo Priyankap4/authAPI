@@ -1,0 +1,28 @@
+{
+  "name": "basicauth",
+  "version": "1.0.0",
+  "description": "a simple authentication system with NodeJS and JWT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "start": "tsc && ts-node ./dist/index.js"
+  },
+  "author": "Priyanka Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
